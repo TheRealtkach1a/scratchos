@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A Console Simulator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:
+linear-gradient(135deg,#111 0%,#111 45%,#ffd000 45%,#ffd000 55%,#111 55%,#111 100%);
+
+font-family:Roboto,sans-serif;
+color:white;
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.container{
+
+width:90%;
+max-width:1000px;
+
+background:#1b1b1b;
+
+border:4px solid #ffd000;
+
+border-radius:20px;
+
+padding:50px;
+
+box-shadow:0 0 40px #000;
+
+text-align:center;
+
+}
+
+.logo{
+
+font-family:Orbitron,sans-serif;
+
+font-size:55px;
+
+color:#ffd000;
+
+text-shadow:
+0 0 15px #ffd000;
+
+margin-bottom:20px;
+
+}
+
+.subtitle{
+
+font-size:28px;
+
+margin-bottom:35px;
+
+color:#fff;
+
+}
+
+.console{
+
+background:#242424;
+
+border:3px solid #ffd000;
+
+border-radius:15px;
+
+padding:25px;
+
+text-align:left;
+
+font-family:Consolas,monospace;
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:45px;
+
+}
+
+.line{
+
+background:#ff6b2d;
+
+padding:10px;
+
+margin:8px 0;
+
+border-radius:8px;
+
+}
+
+.download{
+
+display:inline-block;
+
+padding:20px 55px;
+
+font-size:28px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+background:#ffd000;
+
+color:#111;
+
+border-radius:14px;
+
+transition:.25s;
+
+box-shadow:0 0 25px #ffd000;
+
+}
+
+.download:hover{
+
+transform:scale(1.08);
+
+background:#fff300;
+
+box-shadow:0 0 45px #fff300;
+
+}
+
+.footer{
+
+margin-top:40px;
+
+color:#bbbbbb;
+
+font-size:15px;
+
+}
+
+@media(max-width:700px){
+
+.logo{
+
+font-size:38px;
+
+}
+
+.subtitle{
+
+font-size:20px;
+
+}
+
+.console{
+
+font-size:15px;
+
+}
+
+.download{
+
+font-size:22px;
+
+padding:16px 40px;
+
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo">
+A Console Simulator
+</div>
+
+<div class="subtitle">
+A console simulation made in Scratch
+</div>
+
+<div class="console">
+
+<div class="line">1&nbsp;&nbsp;Welcome to ScratchOS!</div>
+
+<div class="line">2&nbsp;&nbsp;Type "help" for list of all commands</div>
+
+<div class="line">3&nbsp;&nbsp;[BETA STAGE]</div>
+
+<div class="line">4&nbsp;&nbsp;This OS/Console simulation is in beta.</div>
+
+<div class="line">5&nbsp;&nbsp;Please notify the developer if something goes wrong.</div>
+
+</div>
+
+<a class="download" href="ScratchOS [BETA!] (EXPERIMENTAL!).zip" download>
+⬇ Download (.zip)
+</a>
+
+<div class="footer">
+
+Made in Scratch • ScratchOS • A Console Simulator
+
+</div>
+
+</div>
+
+</body>
+</html>
